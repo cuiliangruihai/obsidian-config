@@ -1,0 +1,118 @@
+.scratch-paper {
+  --scratch-paper-bg: #fdfdfc;
+  --scratch-paper-hover: #f1f0ef;
+  --scratch-paper-grip: #bcbbb5;
+  --scratch-paper-border: #cfceca;
+  --scratch-paper-muted: #63635e;
+  --scratch-paper-ink: #21201c;
+  --scratch-paper-shadow: rgba(0, 0, 0, 0.15);
+  position: fixed;
+  z-index: var(--layer-popover, 30);
+  right: 20px;
+  bottom: 36px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  width: min(400px, calc(100vw - 40px));
+  height: min(300px, calc(100vh - 60px));
+  overflow: hidden;
+  color: var(--scratch-paper-ink);
+  background: color-mix(in srgb, var(--scratch-paper-bg) 70%, transparent);
+  backdrop-filter: blur(8px);
+  border: 0.5px solid var(--scratch-paper-border);
+  border-radius: 12px;
+  box-shadow: 0 8px 24px var(--scratch-paper-shadow);
+}
+
+.theme-dark .scratch-paper {
+  --scratch-paper-bg: #222221;
+  --scratch-paper-hover: #2a2a28;
+  --scratch-paper-grip: #62605b;
+  --scratch-paper-border: #494844;
+  --scratch-paper-muted: #b5b3ad;
+  --scratch-paper-ink: #eeeeec;
+  --scratch-paper-shadow: rgba(0, 0, 0, 0.4);
+}
+
+.scratch-paper[hidden] {
+  display: none;
+}
+
+.scratch-paper__header {
+  position: relative;
+  display: flex;
+  flex: 0 0 32px;
+  align-items: center;
+  justify-content: flex-end;
+  padding-inline: 6px;
+  cursor: grab;
+  touch-action: none;
+  user-select: none;
+}
+
+.scratch-paper__header::before {
+  position: absolute;
+  left: 50%;
+  width: 26px;
+  height: 3px;
+  transform: translateX(-50%);
+  background: var(--scratch-paper-grip);
+  border-radius: 2px;
+  content: "";
+}
+
+.scratch-paper__header:active {
+  cursor: grabbing;
+}
+
+.scratch-paper .scratch-paper__close {
+  display: grid;
+  place-items: center;
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  color: var(--scratch-paper-muted);
+  background: transparent;
+  border: 0;
+  border-radius: 6px;
+  box-shadow: none;
+  cursor: pointer;
+}
+
+.scratch-paper .scratch-paper__close:hover {
+  color: var(--scratch-paper-ink);
+  background: var(--scratch-paper-hover);
+}
+
+.scratch-paper .scratch-paper__close:focus-visible {
+  outline: 2px solid var(--scratch-paper-muted);
+  outline-offset: -2px;
+}
+
+.scratch-paper__close svg {
+  width: 16px;
+  height: 16px;
+}
+
+.scratch-paper textarea.scratch-paper__editor {
+  display: block;
+  flex: 1;
+  width: 100%;
+  min-height: 0;
+  margin: 0;
+  padding: 6px 16px 16px;
+  resize: none;
+  color: var(--scratch-paper-ink);
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  font-family: var(--font-text);
+  font-size: 15px;
+  line-height: 1.65;
+}
+
+.scratch-paper textarea.scratch-paper__editor:focus-visible {
+  outline: 1px solid var(--scratch-paper-muted);
+  outline-offset: -1px;
+}

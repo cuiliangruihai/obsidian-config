@@ -1,0 +1,10 @@
+/* Center rendered Markdown tables in reading view and Live Preview. */
+.markdown-rendered table,
+.markdown-source-view.mod-cm6 .cm-table-widget table {
+  margin-inline: auto;
+}
+
+/* Live Preview wraps tables in a content-sized container. */
+.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper {
+  margin-inline: auto;
+}

@@ -1,0 +1,7 @@
+body:not(.is-mobile) .status-bar {
+  display: none;
+}
+
+body:not(.is-mobile) .mod-right-split .sr-tab-view {
+  --bottom-statusbar-clearance: 0px;
+}

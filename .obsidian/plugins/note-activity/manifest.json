@@ -1,0 +1,9 @@
+{
+  "id": "note-activity",
+  "name": "个人工作台",
+  "version": "1.4.0",
+  "minAppVersion": "1.6.6",
+  "description": "查看每日笔记动态、个人物品和词汇内化工作台。",
+  "author": "Personal vault",
+  "isDesktopOnly": false
+}

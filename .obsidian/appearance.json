@@ -1,0 +1,17 @@
+{
+  "cssTheme": "Claude Editorial",
+  "theme": "system",
+  "interfaceFontFamily": "",
+  "textFontFamily": "",
+  "monospaceFontFamily": "",
+  "baseFontSizeAction": true,
+  "baseFontSize": 20,
+  "showRibbon": true,
+  "enabledCssSnippets": [
+    "center-tables",
+    "math-reading",
+    "hide-status-bar"
+  ],
+  "translucency": true,
+  "nativeMenus": true
+}

@@ -1,0 +1,30 @@
+body {
+  --math-reading-fit: 1;
+}
+
+/* Leave a small gap between rendered inline math and surrounding prose. */
+:is(.markdown-rendered, .markdown-source-view.mod-cm6.is-live-preview)
+span.math > mjx-container:not([display="true"]) {
+  margin-inline: 0.1em;
+}
+
+/* Give display equations their own space while keeping MathJax alignment. */
+:is(.markdown-rendered, .markdown-source-view.mod-cm6.is-live-preview)
+.math-block > mjx-container[display="true"] {
+  margin-block: 0.35em;
+  padding: 0.75em min(0.85em, 3%);
+  overflow-x: auto;
+  background-color: color-mix(in srgb, var(--background-primary), var(--background-modifier-hover) 55%);
+  border-radius: var(--radius-s);
+}
+
+:is(.markdown-rendered, .markdown-source-view.mod-cm6.is-live-preview)
+.math-block > mjx-container[display="true"] > mjx-math {
+  font-size: calc(100% * var(--math-reading-scale, 1));
+}
+
+/* Keep the scroll box inside the column even if MathJax sets an inline minimum. */
+:is(.markdown-rendered, .markdown-source-view.mod-cm6.is-live-preview)
+.math-block > mjx-container[display="true"][width="full"] {
+  min-width: 0 !important;
+}

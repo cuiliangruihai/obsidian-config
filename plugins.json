@@ -1,0 +1,185 @@
+[
+  {
+    "id": "claude-editorial",
+    "name": "Claude Editorial",
+    "version": "1.1.0",
+    "sourceEnabled": true,
+    "bundled": true
+  },
+  {
+    "id": "dataview",
+    "name": "Dataview",
+    "version": "0.5.68",
+    "sourceEnabled": true,
+    "bundled": true,
+    "upstream": "https://github.com/blacksmithgu/obsidian-dataview",
+    "license": "MIT"
+  },
+  {
+    "id": "highlightr-plugin",
+    "name": "Highlightr",
+    "version": "1.2.2",
+    "sourceEnabled": true,
+    "bundled": false,
+    "upstream": "https://github.com/chetachiezikeuzor/Highlightr-Plugin",
+    "license": "MPL-2.0"
+  },
+  {
+    "id": "inscribe",
+    "name": "Inscribe",
+    "version": "1.3.1",
+    "sourceEnabled": false,
+    "bundled": true,
+    "upstream": "https://github.com/ahmetildirim/obsidian-inscribe",
+    "license": "MIT"
+  },
+  {
+    "id": "note-activity",
+    "name": "个人工作台",
+    "version": "1.4.0",
+    "sourceEnabled": true,
+    "bundled": true
+  },
+  {
+    "id": "note-refactor-obsidian",
+    "name": "Note Refactor",
+    "version": "1.8.2",
+    "sourceEnabled": true,
+    "bundled": true,
+    "upstream": "https://github.com/lynchjames/note-refactor-obsidian",
+    "license": "MIT"
+  },
+  {
+    "id": "obsidian-excalidraw-plugin",
+    "name": "Excalidraw",
+    "version": "2.29.0",
+    "sourceEnabled": true,
+    "bundled": false,
+    "upstream": "https://github.com/zsviczian/obsidian-excalidraw-plugin",
+    "license": "AGPL-3.0"
+  },
+  {
+    "id": "obsidian-export-image",
+    "name": "Export Image plugin",
+    "version": "2.4.4",
+    "sourceEnabled": true,
+    "bundled": true,
+    "upstream": "https://github.com/zhouhua/obsidian-export-image",
+    "license": "MIT"
+  },
+  {
+    "id": "obsidian-git",
+    "name": "Git",
+    "version": "2.42.0",
+    "sourceEnabled": false,
+    "bundled": true,
+    "upstream": "https://github.com/vinzent03/obsidian-git",
+    "license": "MIT"
+  },
+  {
+    "id": "obsidian-hover-editor",
+    "name": "Hover Editor",
+    "version": "0.11.31",
+    "sourceEnabled": true,
+    "bundled": true,
+    "upstream": "https://github.com/nothingislost/obsidian-hover-editor",
+    "license": "MIT"
+  },
+  {
+    "id": "obsidian-html-plugin",
+    "name": "HTML Reader",
+    "version": "1.0.19",
+    "sourceEnabled": true,
+    "bundled": true,
+    "upstream": "https://github.com/nuthrash/obsidian-html-plugin",
+    "license": "MIT"
+  },
+  {
+    "id": "obsidian-markmind",
+    "name": "Markmind",
+    "version": "3.7.4",
+    "sourceEnabled": true,
+    "bundled": false,
+    "upstream": "https://github.com/markmindckm/obsidian-markmind",
+    "license": null
+  },
+  {
+    "id": "obsidian-pandoc",
+    "name": "Pandoc Plugin",
+    "version": "0.4.1",
+    "sourceEnabled": true,
+    "bundled": true,
+    "upstream": "https://github.com/oliverbalfour/obsidian-pandoc",
+    "license": "MIT"
+  },
+  {
+    "id": "obsidian-spaced-repetition",
+    "name": "Spaced Repetition",
+    "version": "1.15.4+fsrs7.srmd.1",
+    "sourceEnabled": true,
+    "bundled": true,
+    "upstream": "https://github.com/st3v3nmw/obsidian-spaced-repetition",
+    "license": "MIT"
+  },
+  {
+    "id": "obsidian-style-settings",
+    "name": "Style Settings",
+    "version": "1.0.9",
+    "sourceEnabled": true,
+    "bundled": false,
+    "upstream": "https://github.com/obsidian-community/obsidian-style-settings",
+    "license": "GPL-3.0"
+  },
+  {
+    "id": "overpoweredcanvas",
+    "name": "Overpowered Canvas",
+    "version": "0.18.2",
+    "sourceEnabled": true,
+    "bundled": true,
+    "upstream": "https://github.com/kfirgumay2005-hash/Overpowered-Canvas",
+    "license": "MIT"
+  },
+  {
+    "id": "realclaudian",
+    "name": "Claudian",
+    "version": "2.3.37",
+    "sourceEnabled": false,
+    "bundled": true,
+    "upstream": "https://github.com/yishentu/claudian",
+    "license": "MIT"
+  },
+  {
+    "id": "scratch-paper",
+    "name": "草稿纸",
+    "version": "0.1.0",
+    "sourceEnabled": true,
+    "bundled": true
+  },
+  {
+    "id": "templater-obsidian",
+    "name": "Templater",
+    "version": "2.26.0",
+    "sourceEnabled": true,
+    "bundled": false,
+    "upstream": "https://github.com/silentvoid13/Templater",
+    "license": "AGPL-3.0"
+  },
+  {
+    "id": "web-browser",
+    "name": "Web Browser",
+    "version": "1.1.0",
+    "sourceEnabled": true,
+    "bundled": true,
+    "upstream": "https://github.com/raccoon-overlord-dev/obsidian-web-browser",
+    "license": "MIT"
+  },
+  {
+    "id": "wechat-converter",
+    "name": "Wechat Converter",
+    "version": "2.12.2",
+    "sourceEnabled": false,
+    "bundled": true,
+    "upstream": "https://github.com/davidlam-oss/obsidian-wechat-converter",
+    "license": "MIT"
+  }
+]

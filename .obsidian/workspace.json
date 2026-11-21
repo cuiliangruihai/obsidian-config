@@ -1,0 +1,109 @@
+{
+  "main": {
+    "id": "e59c40c3736b4172",
+    "type": "split",
+    "children": [
+      {
+        "id": "22c1b556f2b4c34d",
+        "type": "tabs",
+        "currentTab": 0,
+        "children": [
+          {
+            "id": "1874fbdda8f68007",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "649be7331c3fc7c8",
+    "type": "split",
+    "children": [
+      {
+        "id": "cc8c68ee7500b57c",
+        "type": "tabs",
+        "currentTab": 0,
+        "children": [
+          {
+            "id": "037a9640c520cd60",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 205.48193359375
+  },
+  "right": {
+    "id": "be0bc7b178745b9e",
+    "type": "split",
+    "children": [
+      {
+        "id": "e0fc5f163fee22d1",
+        "type": "tabs",
+        "currentTab": 0,
+        "children": [
+          {
+            "id": "1229f39bb51f6ed8",
+            "type": "leaf",
+            "state": {
+              "type": "personal-todo-view",
+              "state": {},
+              "icon": "list-checks",
+              "title": "待办事项"
+            }
+          },
+          {
+            "id": "b4f7502ed9c11831",
+            "type": "leaf",
+            "state": {
+              "type": "spaced-repetition-tab-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Spaced Repetition"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 440,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:新建数据库": true,
+      "switcher:打开快速切换": true,
+      "graph:查看关系图谱": true,
+      "canvas:新建白板": true,
+      "daily-notes:打开/创建今天的日记": true,
+      "templates:插入模板": true,
+      "command-palette:打开命令面板": true,
+      "publish:发布更改": true,
+      "obsidian-excalidraw-plugin:新建绘图文件": true,
+      "obsidian-spaced-repetition:复习卡片": true,
+      "templater-obsidian:Templater": true,
+      "note-activity:个人工作台": false,
+      "web-browser:Open new browser": true
+    }
+  },
+  "active": "1874fbdda8f68007",
+  "lastOpenFiles": []
+}

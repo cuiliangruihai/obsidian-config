@@ -1,0 +1,17 @@
+{
+  "enabled": false,
+  "suggestionControl": {
+    "autoTrigger": true,
+    "splitStrategy": "sentence",
+    "outputLimit": {
+      "enabled": true,
+      "sentences": 1
+    },
+    "delayMs": 500,
+    "activationRules": {
+      "requireNonEmptyLine": true,
+      "requireCursorNotAtStart": true,
+      "requireSpaceBeforeCursor": true
+    }
+  }
+}

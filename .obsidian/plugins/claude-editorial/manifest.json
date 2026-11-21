@@ -1,0 +1,9 @@
+{
+  "id": "claude-editorial",
+  "name": "Claude Editorial",
+  "version": "1.1.0",
+  "minAppVersion": "1.6.0",
+  "description": "为 Claude Editorial 主题添加固定文章目录、章节定位和阅读进度。",
+  "author": "Reha",
+  "isDesktopOnly": false
+}
